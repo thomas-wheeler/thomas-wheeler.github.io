@@ -1,0 +1,142 @@
+#results-box {display: none;}
+#play-again {display: none;}
+#result {display: none;}
+#player1-total-score {display: none;}
+#player2-total-score {display: none;}
+#player2-first-roll {display: none;}
+#player1-roll1-dice1 {display: none;}
+#player1-roll1-dice2 {display: none;}
+#player2-roll1-dice1 {display: none;}
+#player2-roll1-dice2 {display: none;}
+#stop-first-roll {display: none;}
+
+#player1-second-roll {display: none;}
+#player2-second-roll {display: none;}
+#player1-roll2-dice1 {display: none;}
+#player1-roll2-dice2 {display: none;}
+#player2-roll2-dice1 {display: none;}
+#player2-roll2-dice2 {display: none;}
+#start-second-roll {display: none;}
+#stop-second-roll {display: none;}
+
+#player1-third-roll {display: none;}
+#player2-third-roll {display: none;}
+#player1-roll3-dice1 {display: none;}
+#player1-roll3-dice2 {display: none;}
+#player2-roll3-dice1 {display: none;}
+#player2-roll3-dice2 {display: none;}
+#start-third-roll {display: none;}
+#stop-third-roll {display: none;}
+
+#player-1
+{
+    grid-area: player-1;
+}
+
+#player-2
+{
+    grid-area: player-2;
+}
+
+#grid-container
+{
+    display: grid;
+    grid-template-areas:
+    'player-1 player-2';
+    justify-content: center;
+    gap: 50px;
+}
+
+.dice-1
+{
+    width: 100px;
+    grid-area: dice-1;
+}
+
+.dice-2
+{
+    width: 100px;
+    grid-area: dice-2;
+}
+
+.img-container
+{
+    display: grid;
+    grid-template-areas: 'dice-1 dice-2';
+    justify-content: center;
+    gap: 10px;
+}
+
+h1
+{
+    text-align: center;
+    color: white;
+    background-color:blue;
+    border: 10px solid orange;
+    padding: 20px;
+    margin-right: 10%;
+    margin-left: 10%;
+    border-radius: 25px;
+}
+
+h2
+{
+    text-align: center;
+    color: white;
+}
+
+h3
+{
+    text-align: center;
+    color: white;
+}
+
+.button
+{
+    display: grid;
+    grid-template-areas: 'button';
+    justify-content: center;
+}
+
+button
+{
+    grid-area: button;
+}
+
+.player
+{
+    background-color:teal;
+    border: 10px solid orange;
+    width: 400px;
+    height: 600px;
+    border-radius: 25px;
+}
+
+body
+{
+    background-color: lightblue;
+}
+
+#results-box
+{
+    background-color: blue;
+    border: 10px solid orange;
+    padding: 10px;
+    border-radius: 25px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 20px;
+}
+
+@media only screen and (max-width: 900px)
+{
+    #grid-container
+    {
+        display: grid;
+        grid-template-areas:
+        'player-1'
+        'player-2';
+        justify-content: center;
+        gap: 50px;
+    }
+}
