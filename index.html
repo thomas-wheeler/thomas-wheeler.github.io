@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang = "en">
+
+<head>
+
+    <meta charset ="UTF-8">
+    <title>Final Project</title>
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <script src="js/jquery3.7.1.js" defer></script>
+    <script src="js/javascript.js" defer></script>
+
+</head>
+
+<body>
+
+    <h1>Dice Game</h1>
+
+    <div id="grid-container">
+
+        <div id="player-1" class="player">
+
+            <h2>Player 1 (you)</h2>
+
+            <h3 id="player1-first-roll">First Roll</h3>
+
+            <div class="img-container">
+                <img src="images/dice-1.png" class="dice-1" id="player1-roll1-dice1" alt="dice-1">
+                <img src="images/dice-2.png" class="dice-2" id="player1-roll1-dice2" alt="dice-2">
+            </div>
+
+            <div class="button">
+                <button type="button" id = "start-first-roll">Start</button>
+                <button type = "button" id = "stop-first-roll">Stop</button>
+            </div>
+
+            <h3 id="player1-second-roll">Second Roll</h3>
+
+            <div class="img-container">
+                <img src="images/dice-3.png" class="dice-1" id="player1-roll2-dice1" alt="dice-3">
+                <img src="images/dice-4.png" class="dice-2" id="player1-roll2-dice2" alt="dice-4">
+            </div>
+
+            <div class="button">
+                <button type="button" id = "start-second-roll">Start</button>
+                <button type = "button" id = "stop-second-roll">Stop</button>
+            </div>
+
+            <h3 id="player1-third-roll">Third Roll</h3>
+
+            <div class="img-container">
+                <img src="images/dice-5.png" class="dice-1" id="player1-roll3-dice1" alt="dice-5">
+                <img src="images/dice-6.png" class="dice-2" id="player1-roll3-dice2" alt="dice-6">
+            </div>
+
+            <div class="button">
+                <button type="button" id = "start-third-roll">Start</button>
+                <button type = "button" id = "stop-third-roll">Stop</button>
+            </div>
+        
+            <h3 id="player1-total-score">Total Score</h3>
+
+        </div>
+
+    <div id="player-2" class="player">
+
+        <h2>Player 2</h2>
+
+        <h3 id="player2-first-roll">First Roll</h3>
+
+        <div class="img-container">
+            <img src="images/dice-1.png" class="dice-1" id="player2-roll1-dice1" alt="dice-1">
+            <img src="images/dice-2.png" class="dice-2" id="player2-roll1-dice2" alt="dice-2">
+        </div>
+
+        <h3 id="player2-second-roll">Second Roll</h3>
+
+        <div class="img-container">
+            <img src="images/dice-3.png" class="dice-1" id="player2-roll2-dice1" alt="dice-3">
+            <img src="images/dice-4.png" class="dice-2" id="player2-roll2-dice2" alt="dice-4">
+        </div>
+
+        <h3 id="player2-third-roll">Third Roll</h3>
+
+        <div class="img-container">
+            <img src="images/dice-5.png" class="dice-1" id="player2-roll3-dice1" alt="dice-5">
+            <img src="images/dice-6.png" class="dice-2" id="player2-roll3-dice2" alt="dice-6">
+        </div>
+
+        <h3 id="player2-total-score">Total Score</h3>
+
+    </div>
+
+    </div>
+
+    <div id="results-box">
+        <h2 id="result">result</h2>
+
+        <div class="button">
+            <button id="play-again">Play Again</button>
+        </div>
+    </div>
+
+</body>
+
+</html>
